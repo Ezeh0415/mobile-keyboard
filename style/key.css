@@ -1,0 +1,166 @@
+* {
+    box-sizing :border-box ;
+    margin:0%;
+    padding:0%;
+}
+
+main {
+    border :solid 1px transparent;
+    background-color:black;
+    color:white ;
+    display:flex ;
+    flex-direction:column ;
+    justify-content :center ;
+    align-items:center ;
+    margin-top:44%;
+}
+
+.keys1{
+    display : flex;
+    justify-content: space-evenly;
+    margin: 3px 0 0 -6px;
+}
+
+.keys1 p {
+    border:solid 1px;
+    padding:11px;
+    margin :0 0 0 10px;
+    border-radius:7px;
+    background-color : rgba(255,255,255,0.3);
+}
+
+.keys2{
+    display : flex;
+    justify-content: space-evenly;
+    margin: 3px 0 0 -5px;
+}
+
+.keys2 p {
+    border:solid 1px;
+    padding:11px;
+    margin :0 0 0 9.5px;
+    border-radius:7px;
+    background-color : rgba(255,255,255,0.3);
+}
+
+.keys3{
+    display : flex;
+    justify-content: space-evenly;
+    margin: 3px 0 0 -5px;
+}
+
+.keys3 p {
+    border:solid 1px;
+    padding:11px;
+    margin :0 0 0 12px;
+    border-radius:7px;
+    background-color : rgba(255,255,255,0.3);
+}
+
+/* second key section */
+
+.keys1{
+    display : flex;
+    justify-content: space-evenly;
+    margin: 3px 0 0 -6px;
+}
+
+.keys1 i {
+    border:solid 1px;
+    padding:11px;
+    margin :0 0 0 10px;
+    border-radius:7px;
+    background-color : rgba(255,255,255,0.3);
+}
+
+.keys2{
+    display : flex;
+    justify-content: space-evenly;
+    margin: 3px 0 0 -5px;
+}
+
+.keys2 i {
+    border:solid 1px;
+    padding:11px;
+    margin :0 0 0 10px;
+    border-radius:7px;
+    background-color : rgba(255,255,255,0.3);
+}
+
+.keys3{
+    display : flex;
+    justify-content: space-evenly;
+    margin: 3px 0 0 -5px;
+}
+
+.keys3 i {
+    border:solid 1px;
+    padding:11px;
+    margin :0 0 0 12px;
+    border-radius:7px;
+    background-color : rgba(255,255,255,0.3);
+}
+
+.up {
+     text-transform :uppercase;
+}
+
+.sp {
+    width:220px;
+    text-align :center ;
+    text-transform :uppercase ;
+}
+
+i {
+     display:none;
+}
+
+.keys1{
+    display : flex;
+    justify-content: space-evenly;
+    margin: 3px 0 0 -6px;
+}
+
+.keys1 h6 {
+    border:solid 1px;
+    padding:12px;
+    margin :0 0 0 12px;
+    border-radius:7px;
+    background-color : rgba(255,255,255,0.3);
+}
+
+.keys2{
+    display : flex;
+    justify-content: space-evenly;
+    margin: 3px 0 0 -5px;
+}
+
+.keys2 h6 {
+    border:solid 1px;
+    padding:12px;
+    margin :0 0 0 10px;
+    border-radius:7px;
+    background-color : rgba(255,255,255,0.3);
+}
+
+.keys3{
+    display : flex;
+    justify-content: space-evenly;
+    margin: 3px 0 0 -5px;
+}
+
+.keys3 h6 {
+    border:solid 1px;
+    padding:12px;
+    margin :0 0 0 12px;
+    border-radius:7px;
+    background-color : rgba(255,255,255,0.3);
+}
+
+h6 {
+    display:none;
+}
+
+audio {
+    display :none;
+}
