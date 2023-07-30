@@ -12,7 +12,7 @@ main {
     flex-direction:column ;
     justify-content :center ;
     align-items:center ;
-    margin-top:44%;
+    margin-top:39%;
 }
 
 .keys1{
@@ -163,4 +163,20 @@ h6 {
 
 audio {
     display :none;
+}
+
+/* input section  */
+
+form {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0 0 0;
 }
