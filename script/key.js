@@ -152,7 +152,7 @@ p26.addEventListener("click", function() {
 
 p27.addEventListener("click", function() {
   let = outset = p27.textContent;
-  input.value += outset;
+  input.value = input.value.toString().slice(0,-1);
 });
 
 // last key section
